@@ -33,6 +33,9 @@ main img {
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 20px;
+    float: right;
+    clear: left;
 }
 
 p {
@@ -41,12 +44,6 @@ p {
 
 main {
     max-width: 840px;
-}
-
-main img {
-    margin: 20px;
-    float: right;
-    clear: left;
 }
 
 main ul {
