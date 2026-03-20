@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --border-color: black;
-    --secondary-color: gray;
+    --secondary-color: #ddd;
 
 }
 
@@ -37,27 +43,59 @@ main {
 }
 
 main img {
-    margin-left: 30px;
-    ;
+    margin: 20px;
+    float: right;
+    clear: left;
+}
+
+main ul {
+
+    margin: 10px auto;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    list-style-position: inside;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid var(--border-color);
+    border-radius: 5px;
     padding: 1rem;
     background-color: #eee;
     color: var(--secondary-color);
     text-align: center;
+    position: relative;
+    clear: left;
+}
+
+aside h2 {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
+    margin: 10px auto;
+
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    display: inline-block;
 }
