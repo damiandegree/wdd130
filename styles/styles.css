@@ -41,6 +41,10 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+main ul {
+    list-style-position: inside;
+}
+
 aside {
     width: 20rem;
     text-align: center;
