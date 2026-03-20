@@ -23,6 +23,10 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 840px;
+}
+
 h1 {
     color: var(--primary-color);
 }
@@ -40,10 +44,6 @@ main img {
 
 p {
     padding: 0;
-}
-
-main {
-    max-width: 840px;
 }
 
 main ul {
