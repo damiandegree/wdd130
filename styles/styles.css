@@ -41,10 +41,6 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-main ul {
-    list-style-position: inside;
-}
-
 aside {
     width: 20rem;
     text-align: center;
@@ -77,4 +73,8 @@ footer {
     padding: 1rem;
     background-color: var(--secondary-color);
     color: #000;
+}
+
+.indent {
+    margin-left: 1rem;
 }
