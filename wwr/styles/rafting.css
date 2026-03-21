@@ -1,9 +1,7 @@
 :root {
     --page-font: Arial, Helvetica, sans-serif;
     --primary-color: #000;
-    --secondary-color: #ddd;
     --standar-margin: 16px;
-    --standar-padding: 10px;
 }
 
 * {
@@ -46,13 +44,17 @@ article {
     position: relative;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
