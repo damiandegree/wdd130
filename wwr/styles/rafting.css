@@ -159,23 +159,26 @@ article {
     margin: var(--standar-margin);
     width: 125px;
     height: auto;
-    display: block;
     border-radius: 3px;
 }
 
-section h2 {
+.container2 h2 {
     text-align: center;
+    grid-column: 1/7;
+}
+
+.container2 figcaption {
+    align-self: center;
 }
 
 .container2 {
 
     max-width: 840px;
     margin: 16px auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
     text-align: center;
-    align-items: center;
-    justify-content: space-between;
 
 }
 
@@ -187,6 +190,7 @@ footer {
 }
 
 footer p {
+    text-align: center;
     grid-column: 2/3;
 }
 
