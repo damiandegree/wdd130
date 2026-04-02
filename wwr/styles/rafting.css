@@ -135,6 +135,7 @@ article {
     place-items: center;
     margin: 16px auto;
     background-color: #ddd;
+    font-size: 1.2rem;
 }
 
 .container1 h2 {
@@ -175,11 +176,20 @@ section h2 {
     text-align: center;
     align-items: center;
     justify-content: space-between;
+
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
     text-align: center;
-    justify-content: space-around;
-    align-items: center;
+}
+
+footer p {
+    grid-column: 2/3;
+}
+
+.socialmedia {
+    grid-column: 3/4;
 }
