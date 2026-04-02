@@ -35,6 +35,7 @@ header {
     grid-template-columns: 200px 1fr;
     place-items: center;
     max-width: 800px;
+    text-align: center;
 }
 
 header img {
@@ -45,7 +46,7 @@ header img {
 
 }
 
-nav {
+header nav {
     grid-column: 2/3;
     display: flex;
     background-color: #ddd;
@@ -56,14 +57,14 @@ nav {
 
 }
 
-nav a {
+header nav a {
     margin: 0 16px;
-    padding: 16px;
+    padding: 10px;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
-nav a:hover {
+header nav a:hover {
     color: var(--primary-color);
     transition: 1 ease;
 }
